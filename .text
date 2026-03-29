@@ -1,0 +1,24 @@
+  all delete file in s2 web and create new file in neonextch
+
+ and not sending message to the data base  i help to ai and solve this proble 
+ 
+ 
+ comd    1s
+  how toe activate  virtual environment in python
+  neonextech\.venv\scripts\activate
+    how do db creating python
+     first 
+      python commond 
+     ####  from neonextech import create_app, db
+ app = create_app()
+with app.app_context():
+    db.create_all()
+
+exit()
+#####
+ and  python run.py
+   
+
+   install the extension sql viewer in vs code and 
+open the neonextech dev .db file and checkthe data base
+in creating and sending message to the data base or not 

@@ -1,4 +1,4 @@
-# NeonexTech — Simple Flask Website
+# S2 digital — Simple Flask Website
 
 Minimal Flask app for a company site with pages: Home, About, Products, Services, Contact and a simple chatbot + admin view for contact inquiries.
 
@@ -19,7 +19,7 @@ Minimal Flask app for a company site with pages: Home, About, Products, Services
 
 
 
-cd neonextech
+cd S2 digital 
 python -m venv .venv
 .venv\Scripts\activate
 pip install --upgrade pip
@@ -28,12 +28,12 @@ cd..
 python run.py
 
 
-# default dev DB: neonextech_dev.db
-export DATABASE_URL=sqlite:///neonextech_dev.db
+# default dev DB: S2 digital.db
+export DATABASE_URL=sqlite:/// S2 digital.db
 # change admin key (default is "changeme")
 export ADMIN_KEY=mysupersecret
 # select config (optional)
-export NEONEXTECH_CONFIG=neonextech.config.ProdConfig
+export S2Digital_CONFIG=neonextech.config.ProdConfig
 
 ##
 Run tests:
